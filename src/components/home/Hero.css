@@ -1,0 +1,60 @@
+#heroText {
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin: 60px auto 0 auto;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30%;
+}
+
+#heroText > h3 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+#heroText > p {
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+#heroText > button {
+  font-size: 1.2rem;
+  margin: 0 0 20px;
+}
+
+#heroContainer {
+  position: relative;
+  z-index: 0;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+}
+
+#simon {
+  background-image: url("https://cdn.shopify.com/s/files/1/0589/8652/8923/files/AP107033-2.jpg?v=1643216071");
+  background-size: contain;
+  height: 600px;
+  width: 500px;
+  border-radius: 20px 0 0 0;
+}
+
+#nisa {
+  background-image: url("https://cdn.shopify.com/s/files/1/0589/8652/8923/files/AP106996-3_ac0fadbe-3e52-4009-8719-a87378211a7c.jpg?v=1643217122");
+  background-size: contain;
+  height: 600px;
+  width: 500px;
+  border-radius: 0 20px 0 0;
+}
+
+#separator {
+  width: 120px;
+  height: 500px;
+}

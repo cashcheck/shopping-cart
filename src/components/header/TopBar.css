@@ -1,0 +1,18 @@
+#cart-container {
+  background-color: #eeebe5;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: end;
+}
+
+#top-bar {
+  background-color: #f6f4ee;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}

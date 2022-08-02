@@ -1,0 +1,33 @@
+/* josefin-sans-700 - latin */
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/josefin-sans-v25-latin-700.eot");
+  src: local(""),
+    url("./fonts/josefin-sans-v25-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/josefin-sans-v25-latin-700.woff2") format("woff2"),
+    url("./fonts/josefin-sans-v25-latin-700.woff") format("woff"),
+    url("./fonts/josefin-sans-v25-latin-700.ttf") format("truetype"),
+    url("./fonts/josefin-sans-v25-latin-700.svg#JosefinSans") format("svg");
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background-color: #fefcf6;
+}
+
+p {
+  color: #434040;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans";
+}

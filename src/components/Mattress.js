@@ -1,10 +1,14 @@
 import React from "react";
 import ProductImages from "./mattress/ProductImages";
+import ProductDescription from "./mattress/ProductDescription";
+import "./mattress/Mattress.css";
 
-function Mattress() {
+function Mattress(props) {
+  const { addToCart } = props;
   return (
-    <div>
+    <div className="product-info-grid">
       <ProductImages />
+      <ProductDescription addToCart={addToCart} />
     </div>
   );
 }

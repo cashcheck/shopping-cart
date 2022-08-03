@@ -1,12 +1,19 @@
 #cart-container {
   background-color: #eeebe5;
-  padding-top: 6px;
-  padding-bottom: 8px;
+  padding: 8px 8px 10px 8px;
   width: 50px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   justify-self: end;
+  gap: 5px;
+  transition: background-color 0.5s;
+}
+
+#cart-container:hover {
+  cursor: pointer;
+  background-color: #fefb6a;
 }
 
 #top-bar {
@@ -15,4 +22,14 @@
   flex-direction: row;
   justify-content: flex-end;
   width: 100%;
+}
+
+#cart-num-items {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.inactive {
+  display: none;
 }

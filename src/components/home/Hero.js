@@ -10,7 +10,7 @@ function Hero() {
         <p>
           100 sleep day trial • 10 limited warranty • nationwide free delivery
         </p>
-        <Button sx={{ backgroundColor: "yellow" }}>from 6.890.000</Button>
+        <button>from 6.890.000</button>
       </div>
       <div id="heroContainer">
         <div className="heroChild is-hidden-mobile-only" id="simon"></div>

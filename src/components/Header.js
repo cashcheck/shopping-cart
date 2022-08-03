@@ -2,10 +2,11 @@ import React from "react";
 import Nav from "./header/Nav";
 import TopBar from "./header/TopBar";
 
-function Header() {
+function Header(props) {
+  const { numItems, items } = props;
   return (
     <div>
-      <TopBar />
+      <TopBar numItems={numItems} items={items} />
       <Nav />
     </div>
   );

@@ -1,13 +1,18 @@
 import React from "react";
-import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import Cart from "./Cart";
 import "./TopBar.css";
 
 function TopBar(props) {
-  const { numItems, items } = props;
+  const { numItems, items, total, increase, decrease } = props;
   return (
     <div id="top-bar">
-      <Cart numItems={numItems} items={items} />
+      <Cart
+        numItems={numItems}
+        items={items}
+        total={total}
+        increase={increase}
+        decrease={decrease}
+      />
     </div>
   );
 }

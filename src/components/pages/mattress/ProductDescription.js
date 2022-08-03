@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import uniqid from "uniqid";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
+import image from "./images/1-og.jpg";
+import uniqid from "uniqid";
 
 function ProductDescription(props) {
   const { addToCart } = props;
@@ -13,31 +14,31 @@ function ProductDescription(props) {
       name: "Original Mattress",
       size: "Twin: 120cm x 200cm",
       price: 5890000,
-      id: uniqid(),
+      img: image,
     },
     {
       name: "Original Mattress",
       size: "Full: 140cm x 200cm",
       price: 6690000,
-      id: uniqid(),
+      img: image,
     },
     {
       name: "Original Mattress",
       size: "Queen: 160cm x 200cm",
       price: 7490000,
-      id: uniqid(),
+      img: image,
     },
     {
       name: "Original Mattress",
       size: "King: 180cm x 200cm",
       price: 8290000,
-      id: uniqid(),
+      img: image,
     },
     {
       name: "Original Mattress",
       size: "Square King: 200cm x 200cm",
       price: 9090000,
-      id: uniqid(),
+      img: image,
     },
   ];
 
@@ -83,7 +84,7 @@ function ProductDescription(props) {
             sx={{ width: "400px", backgroundColor: "white" }}
           >
             {variants.map((v) => (
-              <MenuItem value={v.size} key={v.id}>
+              <MenuItem value={v.size} key={uniqid()}>
                 {v.size}
               </MenuItem>
             ))}

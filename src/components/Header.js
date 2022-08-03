@@ -3,10 +3,16 @@ import Nav from "./header/Nav";
 import TopBar from "./header/TopBar";
 
 function Header(props) {
-  const { numItems, items } = props;
+  const { numItems, items, total, increase, decrease } = props;
   return (
     <div>
-      <TopBar numItems={numItems} items={items} />
+      <TopBar
+        numItems={numItems}
+        items={items}
+        total={total}
+        increase={increase}
+        decrease={decrease}
+      />
       <Nav />
     </div>
   );

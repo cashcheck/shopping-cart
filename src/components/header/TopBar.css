@@ -33,3 +33,63 @@
 .inactive {
   display: none;
 }
+
+#expanded-cart {
+  position: absolute;
+  background-color: #eeebe5;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.cart-item-info > p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 15px;
+  margin: 0;
+}
+
+#cart-total {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: none;
+}
+
+.quantity-incrementor {
+  display: flex;
+  flex-direction: row;
+}
+
+.quanity-button-decrease {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.quanity-button-increase {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.quantity-buttotn {
+  background-color: grey;
+  height: 10px;
+  width: 15px;
+}

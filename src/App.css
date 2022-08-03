@@ -95,3 +95,7 @@ button:hover {
   padding: 10px;
   border-radius: 1.5rem;
 }
+
+.inactive {
+  display: none !important;
+}

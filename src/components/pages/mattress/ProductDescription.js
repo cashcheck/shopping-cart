@@ -55,7 +55,7 @@ function ProductDescription(props) {
   return (
     <div className="product-description">
       <h1>Original Mattress</h1>
-      <h4 className="product-price">{variant.price}đ</h4>
+      <h4 className="product-price">{variant.price.toLocaleString()}đ</h4>
       <h4>Inside the Original</h4>
       <p>2 layer construction</p>
       <p>

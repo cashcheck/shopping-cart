@@ -12,7 +12,7 @@ function CartItem(props) {
           {item.name} - {item.size}
         </p>
         <p>
-          <strong>{item.price}</strong>
+          <strong>{item.price.toLocaleString()}</strong>
         </p>
         <QuantityIncrementer
           item={item}

@@ -13,8 +13,23 @@
     url("./fonts/josefin-sans-v25-latin-700.svg#JosefinSans") format("svg");
 }
 
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/roboto-v30-latin-300.eot");
+  src: local(""),
+    url("./fonts/roboto-v30-latin-300.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/roboto-v30-latin-300.woff2") format("woff2"),
+    url("./fonts/roboto-v30-latin-300.woff") format("woff"),
+    url("./fonts/roboto-v30-latin-300.ttf") format("truetype"),
+    url("./fonts/roboto-v30-latin-300.svg#Roboto") format("svg");
+}
+
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fefcf6;

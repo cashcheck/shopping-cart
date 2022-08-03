@@ -26,7 +26,7 @@ function Cart(props) {
           />
         ))}
         <div id="cart-total">
-          <p>total: {total}</p>
+          <p>total: {total.toLocaleString()}</p>
         </div>
       </div>
     </div>

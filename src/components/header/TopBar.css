@@ -73,23 +73,53 @@
   padding: none;
 }
 
-.quantity-incrementor {
+.quantity-incrementer {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  box-sizing: border-box;
 }
 
-.quanity-button-decrease {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+.quantity-button-decrease {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.quanity-button-increase {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+.quantity-button-increase {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.quantity-buttotn {
-  background-color: grey;
-  height: 10px;
-  width: 15px;
+.quantity-button {
+  padding: 2px 2px 2px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  background-color: lightgray;
+}
+
+.quantity-button:hover {
+  background-color: #fefb6a;
+}
+
+.item-quantity {
+  width: 30px;
+  font-size: 0.92rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  margin: 0;
+  padding: 6px 0 6px 0;
+  border-right: none;
+  border-left: none;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
